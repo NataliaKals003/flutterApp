@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_flutter/views/pages/login_page.dart';
 import 'package:lottie/lottie.dart';
 
 class OnboardingPage extends StatelessWidget {
@@ -19,7 +20,16 @@ class OnboardingPage extends StatelessWidget {
 
                 SizedBox(height: 20),
                 FilledButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return LoginPage(title: 'Login');
+                        },
+                      ),
+                    );
+                  },
                   style: FilledButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
