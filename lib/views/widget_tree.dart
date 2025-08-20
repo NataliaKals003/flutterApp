@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hello_flutter/data/constants.dart';
-import 'package:hello_flutter/data/notifiers.dart';
-import 'package:hello_flutter/views/pages/home_page.dart';
-import 'package:hello_flutter/views/pages/profile_page.dart';
-import 'package:hello_flutter/views/pages/settings_page.dart';
-import 'package:hello_flutter/widgets/navbar_widget.dart';
+import 'package:flutterApp/data/constants.dart';
+import 'package:flutterApp/data/notifiers.dart';
+import 'package:flutterApp/views/pages/home_page.dart';
+import 'package:flutterApp/views/pages/profile_page.dart';
+import 'package:flutterApp/views/pages/settings_page.dart';
+import 'package:flutterApp/widgets/navbar_widget.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 List<Widget> pages = [HomePage(), ProfilePage()];

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hello_flutter/views/pages/login_page.dart';
-import 'package:hello_flutter/views/pages/onboarding_page.dart';
+import 'package:flutterApp/views/pages/login_page.dart';
+import 'package:flutterApp/views/pages/onboarding_page.dart';
 import 'package:lottie/lottie.dart';
 
 class WelcomePage extends StatelessWidget {

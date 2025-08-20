@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello_flutter/views/widget_tree.dart';
+import 'package:flutterApp/views/widget_tree.dart';
 import 'package:lottie/lottie.dart';
 
 class LoginPage extends StatefulWidget {
