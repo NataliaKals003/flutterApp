@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello_flutter/widgets/hero_widget.dart';
+import 'package:flutterApp/widgets/hero_widget.dart';
 
 class CoursePage extends StatelessWidget {
   const CoursePage({super.key});
