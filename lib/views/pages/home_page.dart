@@ -1,37 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:hello_flutter/data/constants.dart';
+import 'package:hello_flutter/widgets/container_widget.dart';
 import 'package:hello_flutter/widgets/hero_widget.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
+    List<String> list = [
+      KValue.basicLayout,
+      KValue.cleanUi,
+      KValue.fixBug,
+      KValue.keyConcepts,
+    ];
+
     return Padding(
-      padding: EdgeInsets.all(20.0),
+      padding: EdgeInsets.symmetric(horizontal: 20.0),
       child: SingleChildScrollView(
         child: Column(
           children: [
             HeroWidget(title: 'Home'),
-            Padding(
-              padding: EdgeInsets.symmetric(vertical: 20.0),
-              child: Card(
-                child: Container(
-                  width: double.infinity,
-                  padding: EdgeInsets.all(20),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Welcome to the Home Page!',
-                        style: KTextStyles.titleTealText,
-                      ),
-                      Text(
-                        'This is a simple example of using a Hero widget in Flutter.',
-                        style: KTextStyles.descriptionText,
-                      ),
-                    ],
-                  ),
+            Column(
+              children: List.generate(
+                list.length,
+                (index) => ContainerWidget(
+                  title: list.elementAt(index),
+                  description: 'This is the description for item ${index + 1}.',
                 ),
               ),
             ),
