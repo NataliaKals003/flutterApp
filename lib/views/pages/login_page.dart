@@ -1,3 +1,6 @@
+//This page is used for the login functionality of the app.
+//It contains text fields for email and password input, and a button to submit the login request
+
 import 'package:flutter/material.dart';
 import 'package:flutterApp/views/widget_tree.dart';
 import 'package:lottie/lottie.dart';

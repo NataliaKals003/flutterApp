@@ -1,3 +1,6 @@
+//This page is part of the onboarding process for the app.
+// It displays an onboarding animation and a button to navigate to the login page.
+
 import 'package:flutter/material.dart';
 import 'package:flutterApp/views/pages/login_page.dart';
 import 'package:lottie/lottie.dart';

@@ -1,3 +1,6 @@
+//This file is part of a Flutter application that defines the widget tree for the app.
+//It includes the main structure of the app, navigation, and theme management.
+
 import 'package:flutter/material.dart';
 import 'package:flutterApp/data/constants.dart';
 import 'package:flutterApp/data/notifiers.dart';

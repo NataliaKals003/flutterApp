@@ -1,3 +1,6 @@
+//This page serves as the home screen of the app.
+// It displays a list of courses with a hero animation and a switch to toggle between views.
+
 import 'package:flutter/material.dart';
 import 'package:flutterApp/data/constants.dart';
 import 'package:flutterApp/views/pages/course_page.dart';

@@ -1,3 +1,6 @@
+//This file is part of the FlutterApp project.
+//It is licensed under the MIT License.
+
 import 'package:flutter/material.dart';
 import 'package:flutterApp/data/constants.dart';
 import 'package:flutterApp/data/notifiers.dart';

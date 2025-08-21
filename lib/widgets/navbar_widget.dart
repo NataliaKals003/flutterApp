@@ -1,3 +1,6 @@
+//This widget is used to create a navigation bar with two destinations: Home and Profile.
+//It uses a ValueListenableBuilder to listen for changes in the selected page and updates the UI accordingly.
+
 import 'package:flutter/material.dart';
 import 'package:flutterApp/data/notifiers.dart';
 
