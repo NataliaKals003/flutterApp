@@ -1,3 +1,6 @@
+//This widget is used to display a hero image with a title.
+//It can also navigate to a next page if provided.
+
 import 'package:flutter/material.dart';
 
 class HeroWidget extends StatelessWidget {

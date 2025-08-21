@@ -1,3 +1,6 @@
+//This file is a widget that creates a container with a title and description.
+//It uses a Card widget to display the content with padding and styling.
+
 import 'package:flutter/material.dart';
 import 'package:flutterApp/data/constants.dart';
 

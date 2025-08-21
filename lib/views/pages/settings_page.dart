@@ -1,3 +1,7 @@
+//This page contains various widgets and their functionalities
+//It includes buttons, text fields, checkboxes, switches, sliders, and navigation to another page
+//It also demonstrates the use of dialogs, snackbars, and adaptive widgets
+
 import 'package:flutter/material.dart';
 import 'package:flutterApp/views/pages/expanded_flexible_page.dart';
 

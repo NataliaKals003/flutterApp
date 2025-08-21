@@ -1,3 +1,6 @@
+// This page demonstrates the use of Expanded and Flexible widgets in Flutter.
+// It creates a simple layout with two flexible containers side by side.
+
 import 'package:flutter/material.dart';
 
 class ExpandedFlexiblePage extends StatelessWidget {

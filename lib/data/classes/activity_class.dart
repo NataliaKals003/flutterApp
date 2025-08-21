@@ -1,3 +1,6 @@
+// This class represents an activity with various attributes.
+// It includes properties such as activity description, availability, type, number of participants, price,
+
 class Activity {
   final String activity;
   final double availability;

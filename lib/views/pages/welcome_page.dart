@@ -1,3 +1,6 @@
+//This page is part of a Flutter application that serves as a welcome screen.
+//It includes a Lottie animation, a title, and buttons to navigate to onboarding or login
+
 import 'package:flutter/material.dart';
 import 'package:flutterApp/views/pages/login_page.dart';
 import 'package:flutterApp/views/pages/onboarding_page.dart';

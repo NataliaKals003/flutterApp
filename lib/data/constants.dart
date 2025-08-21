@@ -1,3 +1,6 @@
+//This is a Dart file that contains constants and text styles used throughout the application.
+// It includes keys for theme mode, text styles for titles and descriptions, and some predefined string
+
 import 'package:flutter/material.dart';
 
 class KConstants {
